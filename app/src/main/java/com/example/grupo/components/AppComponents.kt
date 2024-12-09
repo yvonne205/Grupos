@@ -196,7 +196,7 @@ fun CheckboxComponent(onTextSelected: (String) -> Unit) {
 
 @Composable
 fun ClickableTextComponent(onTextSelected: (String) -> Unit) {
-    val initialText = "By continuing you accept our "
+    val initialText = "By continuing you accept "
     val privacyPolicyText = "Privacy Policy"
     val andText = " and "
     val termsAndConditionsText = "Terms of Use"
