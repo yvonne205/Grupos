@@ -324,7 +324,7 @@ fun ClickableLoginTextComponent(onTextSelected: (String) -> Unit) {
 
 @Composable
 fun ClickableForgotPasswordComponent(onTextSelected: (String) -> Unit) {
-    //val initialText = "Already have an account? "
+    //val initialText = "Already have account? "
     val forgotPasswordText = "Forgot your Password ?"
     val annotatedString = buildAnnotatedString {
         //append(initialText)
